@@ -143,6 +143,8 @@ git commit
 
 **Actividad:** en `mejora-instrucciones`, agrega una aclaración breve al README. Después integra la rama en `main` y comprueba el historial con `git log --oneline --all --decorate`.
 
+> Nota: Después de modificar un archivo Java, es necesario volver a compilarlo antes de ejecutarlo.
+
 - [ ] Creé la rama `mejora-instrucciones`.
 - [ ] Creé un commit dentro de esa rama.
 - [ ] Regresé a `main` y combiné la rama con `git merge`.
