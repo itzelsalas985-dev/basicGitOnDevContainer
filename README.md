@@ -35,7 +35,11 @@ mvn --version
 
 **Actividad:** copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
 
-- [ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+- [X] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+    1- git version 2.55.0
+    2- openjdk version "25.0.4.1"
+    3- javac 25.0.4.1
+    4- Apache Maven 3.9.16
 
 Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
 
@@ -54,8 +58,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
 
 **Actividad:** modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
 
-- [ ] Compilé y ejecuté los dos ejemplos.
-- [ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
+- [X] Compilé y ejecuté los dos ejemplos.
+- [X] Realicé una modificación en un archivo `.java` y comprobé su resultado.
 
 ## 3. Preparar el repositorio
 
@@ -77,9 +81,9 @@ git diff --cached
 
 **Actividad:** prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
 
-- [ ] Revisé el estado inicial con `git status`.
-- [ ] Agregué los archivos fuente y de configuración con `git add`.
-- [ ] Revisé el contenido preparado con `git diff --cached`.
+- [X] Revisé el estado inicial con `git status`.
+- [X] Agregué los archivos fuente y de configuración con `git add`.
+- [X] Revisé el contenido preparado con `git diff --cached`.
 
 ## 4. Crear y corregir commits
 
@@ -109,9 +113,9 @@ git log --oneline -1
 
 **Actividad:** después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
 
-- [ ] Creé el primer commit con un mensaje descriptivo.
-- [ ] Revisé un cambio con `git diff` antes de prepararlo.
-- [ ] Incorporé el cambio al commit anterior con `git commit --amend`.
+- [X] Creé el primer commit con un mensaje descriptivo.
+- [X] Revisé un cambio con `git diff` antes de prepararlo.
+- [X] Incorporé el cambio al commit anterior con `git commit --amend`.
 
 ## 5. Crear una rama y combinarla con `merge`
 
